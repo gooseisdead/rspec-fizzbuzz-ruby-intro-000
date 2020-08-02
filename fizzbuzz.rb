@@ -1,13 +1,13 @@
 int = [1.upto(100)]
 
 def fizzbuzz(int)
-  if int % 3 == 0
+  if int % 3 = 0
     puts "Fizz"
-  elsif int % 5 == 0
+  elsif int % 5 = 0
     puts "Buzz"
-  elsif int % 15 == 0
+  elsif int % 15 = 0
     puts "FizzBuzz"
-  else int % 4 == 0
+  else int % 4 = 0
     puts "nil"
   end
 end
